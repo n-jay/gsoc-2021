@@ -1,0 +1,28 @@
+version: "3.9"
+
+networks:
+    isolation-network:
+      driver: bridge
+
+services:
+    client:
+        build: ./client/
+        # ports: 
+        #     - "3001:3001"
+        image: docker-synapse-client:v1
+        # env_file: .
+        depends_on: 
+            - "server"
+        networks:
+            - isolation-network
+        
+    server:
+        build: ./server/
+        # env_file: .
+        ports: 
+            - "3000:3000"
+        image: docker-synapse-server:v1
+        networks:
+            - isolation-network
+
+    

@@ -1,0 +1,8 @@
+localhost:8280 - - - "POST / HTTP/1.1" - - "-" "Axis2"
+localhost:9000 - - - "POST /services/SimpleStockQuoteService HTTP/1.1" - - "-" "Synapse-PT-HttpComponents-NIO"
+localhost:8280 - - - "POST / HTTP/1.1" - - "-" "Axis2"
+-  - Fri, 28 May 2021 13:54:13 GMT "- - " 200 - "-" "-"
+localhost:9000 - - - "POST /services/SimpleStockQuoteService HTTP/1.1" - - "-" "Synapse-PT-HttpComponents-NIO"
+-  - Fri, 28 May 2021 13:54:13 GMT "- - " 200 - "-" "-"
+-  - Fri, 28 May 2021 13:54:23 GMT "- - " 200 - "-" "-"
+-  - Fri, 28 May 2021 13:54:23 GMT "- - " 200 - "-" "-"
