@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: synapse-pod
+  labels:
+    app: synapse
+spec:
+  containers:
+  - name: synapse
+    image: docker-synapse
+    ports:
+      - containerPort: 8280
+    imagePullPolicy: IfNotPresent
