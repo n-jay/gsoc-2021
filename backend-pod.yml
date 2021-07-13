@@ -7,8 +7,8 @@ metadata:
 spec:
   containers:
   - name: server
-    image: docker-synapse-server
-    #image: node
+    image: nuwnjay/docker-synapse-server:v1
+    # image: node
     ports:
       - containerPort: 3000
     imagePullPolicy: IfNotPresent
