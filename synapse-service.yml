@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: synapse-service
+  labels:
+    app: synapse-service
+spec:
+  selector:
+    app: synapse-deployment
+  ports:
+  - port: 8280
+    name: http
+    targetPort: 8280
+  - port: 4430
+    name: https
+    targetPort: 8280
