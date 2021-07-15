@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: synapse-deployment
+  labels:
+    app: synapse-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: synapse-deployment
+  template:
+    metadata:
+      labels:
+        app: synapse-deployment
+    spec:
+      containers:
+      - name: synapse
+        image: nuwnjay/docker-synapse:v2
+        ports:
+          - containerPort: 8280
+        imagePullPolicy: IfNotPresent
