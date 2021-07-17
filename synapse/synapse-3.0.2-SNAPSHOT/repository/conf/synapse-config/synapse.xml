@@ -23,4 +23,19 @@
 
     <!-- You can add any flat sequences, endpoints, etc.. to this synapse.xml file if you do
     not want to keep the artifacts in several files -->
+    <proxy name="backend">
+        <target>
+            <endpoint>
+                <address uri="http://backend-service:3000"/>
+            </endpoint>
+            <outSequence>
+                <send/>
+            </outSequence>
+        </target>
+    </proxy>
+    
+    <sequence name="main">
+        <log level="full"/>
+        <send/>
+    </sequence>
 </definitions>
