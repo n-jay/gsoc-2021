@@ -7,13 +7,17 @@ services:
             - "8280:8280"
         depends_on: 
             - "server"
-        image: docker-synapse:v1
+        image: nuwnjay/docker-synapse:v2
         
     server:
         build: ./server/
         # env_file: .
         ports: 
             - "3000:3000"
-        image: docker-synapse-server:v1
+        image: nuwnjay/docker-synapse-server:v1
+
+    client:
+        build: ./client/
+        image: nuwnjay/docker-synapse-client:v1
 
     
