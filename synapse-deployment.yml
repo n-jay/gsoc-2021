@@ -19,4 +19,13 @@ spec:
         image: nuwnjay/docker-synapse:v2
         ports:
           - containerPort: 8280
+        env:
+        - name: BACKEND_SERVICE
+          value: "http://backend-service:3000"
+        - name: BACKEND_SERVICE2
+          valueFrom:
+            configMapKeyRef:
+              name: synapse-config
+              key: backend-service
         imagePullPolicy: IfNotPresent
+
