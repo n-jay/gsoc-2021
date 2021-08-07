@@ -27,15 +27,11 @@
         <target>
             <endpoint>
                 <address uri="http://backend-service:3000"/>
+                <!-- <address uri="$BACKEND_SERVICE"/> -->
             </endpoint>
             <outSequence>
                 <send/>
             </outSequence>
         </target>
     </proxy>
-    
-    <sequence name="main">
-        <log level="full"/>
-        <send/>
-    </sequence>
 </definitions>
