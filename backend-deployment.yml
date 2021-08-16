@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: nuwnjay/docker-synapse-server:v1
+        image: nuwnjay/docker-axis-server:v1
         # image: node
         ports:
-          - containerPort: 3000
+          - containerPort: 9000
         imagePullPolicy: IfNotPresent
