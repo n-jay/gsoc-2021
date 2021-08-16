@@ -5,16 +5,20 @@ services:
         build: ./synapse/
         ports: 
             - "8280:8280"
-        # depends_on: 
-        #     - "server"
-        image: nuwnjay/docker-synapse:v2
-        
+        image: nuwnjay/docker-synapse:v5
+
     server:
-        build: ./server/
-        # env_file: .
+        build: ./axis2server/
         ports: 
-            - "3000:3000"
-        image: nuwnjay/docker-synapse-server:v1
+            - "9000:9000"
+        image: nuwnjay/docker-axis-server:v1
+        
+    # server:
+    #     build: ./server/
+    #     # env_file: .
+    #     ports: 
+    #         - "3000:3000"
+    #     image: nuwnjay/docker-synapse-server:v1
 
     client:
         build: ./client/
