@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: synapse
-        image: nuwnjay/docker-synapse:v2
+        image: nuwnjay/docker-synapse:v5
         ports:
           - containerPort: 8280
         env:
@@ -27,5 +27,20 @@ spec:
             configMapKeyRef:
               name: synapse-config
               key: backend-service
+        - name: TEST_SOAP_SERVICE
+          valueFrom:
+            configMapKeyRef:
+              name: synapse-config
+              key: TEST_SOAP_SERVICE
+        - name: TEST_WSDL_SERVICE
+          valueFrom:
+            configMapKeyRef:
+              name: synapse-config
+              key: TEST_WSDL_SERVICE
+        - name: TEST_WSDL_SERVICE_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: synapse-config
+              key: TEST_WSDL_SERVICE_PORT
         imagePullPolicy: IfNotPresent
 
