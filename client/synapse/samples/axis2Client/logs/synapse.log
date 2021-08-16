@@ -1,0 +1,9 @@
+2021-08-16 19:21:07,205 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-16 19:21:07,208 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-16 19:21:07,209 [-] [main]  INFO MailTransportSender MAILTO Sender started
+2021-08-16 20:56:43,485 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-16 20:56:43,487 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-16 20:56:43,489 [-] [main]  INFO MailTransportSender MAILTO Sender started
+2021-08-16 20:58:50,964 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-16 20:58:50,967 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-16 20:58:50,968 [-] [main]  INFO MailTransportSender MAILTO Sender started

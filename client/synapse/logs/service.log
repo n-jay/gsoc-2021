@@ -1,0 +1,5 @@
+2021-08-16 20:56:43,690 [-] [PassThroughMessageProcessor-5]  INFO __SynapseService To: http://localhost:8280/, WSAction: urn:getQuote, SOAPAction: urn:getQuote, ReplyTo: http://www.w3.org/2005/08/addressing/anonymous, MessageID: urn:uuid:95ccc267-90b8-4553-875a-cd659d99a076, Direction: request
+2021-08-16 20:59:38,709 [-] [PassThroughMessageProcessor-4]  WARN __SynapseService ERROR_CODE : 101508 ERROR_MESSAGE : Error in Sender
+2021-08-16 20:59:38,709 [-] [PassThroughMessageProcessor-4]  INFO __SynapseService FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+2021-08-16 20:59:38,709 [-] [PassThroughMessageProcessor-4]  WARN __SynapseService Executing fault sequence mediator : fault
+2021-08-16 20:59:38,736 [-] [PassThroughMessageProcessor-4]  INFO __SynapseService To: /stockquote/view/IBM, MessageID: urn:uuid:2b4bc205-c7f8-4c37-b63f-68112d7a247d, Direction: request, MESSAGE = Executing default "fault" sequence, ERROR_CODE = 101508, ERROR_MESSAGE = Error in Sender, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Header/><soapenv:Body/></soapenv:Envelope>

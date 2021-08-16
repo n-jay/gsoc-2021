@@ -2386,3 +2386,194 @@ SOAPAction: urn:sampleOperationResponse
 2021-07-05 20:57:04,958 [-] [Thread-3]  INFO RMIRegistryController Removing the RMI registry bound to port : 1099
 2021-07-05 20:57:04,961 [-] [Thread-3]  INFO SynapseServer Apache Synapse shutdown complete
 2021-07-05 20:57:04,961 [-] [Thread-3]  INFO SynapseServer Halting JVM
+2021-08-15 19:02:32,753 [-] [main]  INFO SynapseServer Starting Apache Synapse...
+2021-08-15 19:02:32,830 [-] [main]  INFO SynapseControllerFactory Using Synapse home : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT
+2021-08-15 19:02:32,830 [-] [main]  INFO SynapseControllerFactory Using Axis2 repository : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository
+2021-08-15 19:02:32,831 [-] [main]  INFO SynapseControllerFactory Using axis2.xml location : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository/conf/axis2.xml
+2021-08-15 19:02:32,854 [-] [main]  INFO SynapseControllerFactory Using synapse.xml location : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_800.xml
+2021-08-15 19:02:32,855 [-] [main]  INFO SynapseControllerFactory Using server name : localhost
+2021-08-15 19:02:32,855 [-] [main] DEBUG SynapseControllerFactory Using Server Configuration As : [ Synapse Debug Mode: false ][ Server Name : localhost ][ Synapse Home : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT ][ Synapse XML : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_800.xml ][ Server Host : nuwan-Aspire-A315-55G ][ Server IP : 127.0.1.1 ][ Axis2 Repository : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository ][ Axis2 XML : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository/conf/axis2.xml ]
+2021-08-15 19:02:32,888 [-] [main] DEBUG SynapsePropertiesLoader Loading synapse properties from a property file
+2021-08-15 19:02:32,890 [-] [main] DEBUG MiscellaneousUtil Loading a file 'synapse.properties' from classpath
+2021-08-15 19:02:32,927 [-] [main] DEBUG MiscellaneousUtil The name with 'synapse.timeout_handler_interval' cannot be found. Using default value : 15000
+2021-08-15 19:02:32,928 [-] [main]  INFO SynapseControllerFactory The timeout handler will run every : 15s
+2021-08-15 19:02:33,014 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:33,019 [-] [main]  INFO Axis2SynapseController Initializing Synapse at : Sun Aug 15 19:02:33 IST 2021
+2021-08-15 19:02:33,019 [-] [main] DEBUG Axis2SynapseController Initializing Synapse in a new axis2 server environment instance
+2021-08-15 19:02:33,905 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-15 19:02:34,052 [-] [main]  INFO JMSConnectionFactory JMS ConnectionFactory : default initialized
+2021-08-15 19:02:34,054 [-] [main]  INFO JMSConnectionFactory JMS ConnectionFactory : myTopicConnectionFactory initialized
+2021-08-15 19:02:34,055 [-] [main]  INFO JMSConnectionFactory JMS ConnectionFactory : myQueueConnectionFactory initialized
+2021-08-15 19:02:34,055 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-15 19:02:34,055 [-] [main]  INFO VFSTransportSender VFS Sender started
+2021-08-15 19:02:34,175 [-] [main] DEBUG MiscellaneousUtil Loading a file 'passthru-http.properties' from classpath
+2021-08-15 19:02:34,231 [-] [main]  INFO PassThroughHttpSender Pass-through HTTP sender started...
+2021-08-15 19:02:34,233 [-] [main]  INFO PassThroughHttpSSLSender Loading Identity Keystore from : lib/identity.jks
+2021-08-15 19:02:34,300 [-] [main]  INFO PassThroughHttpSSLSender Loading Trust Keystore from : lib/trust.jks
+2021-08-15 19:02:34,408 [-] [main]  INFO PassThroughHttpSSLSender Pass-through HTTPS sender started...
+2021-08-15 19:02:34,438 [-] [main] DEBUG AbstractSynapseArtifactDeployer Deployment of the synapse artifact from file : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository/conf/synapse-config/sequences/fault.xml : STARTED
+2021-08-15 19:02:34,439 [-] [main] DEBUG AbstractSynapseArtifactDeployer Deployment of the synapse artifact from file : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository/conf/synapse-config/sequences/main.xml : STARTED
+2021-08-15 19:02:34,444 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,447 [-] [main] DEBUG MiscellaneousUtil The name with 'synapse.jmx.rmiPort' cannot be found. Using default value : 0
+2021-08-15 19:02:34,448 [-] [main] DEBUG MiscellaneousUtil The name with 'synapse.jmx.remote.ssl' cannot be found. Using default value : false
+2021-08-15 19:02:34,496 [-] [main]  INFO JMSConnectionFactory JMS ConnectionFactory : default initialized
+2021-08-15 19:02:34,497 [-] [main]  INFO JMSConnectionFactory JMS ConnectionFactory : myTopicConnectionFactory initialized
+2021-08-15 19:02:34,498 [-] [main]  INFO JMSConnectionFactory JMS ConnectionFactory : myQueueConnectionFactory initialized
+2021-08-15 19:02:34,498 [-] [main]  INFO JMSListener JMS Transport Receiver/Listener initialized...
+2021-08-15 19:02:34,511 [-] [main]  INFO PassThroughHttpSSLListener Loading Identity Keystore from : lib/identity.jks
+2021-08-15 19:02:34,512 [-] [main]  INFO PassThroughHttpSSLListener Loading Trust Keystore from : lib/trust.jks
+2021-08-15 19:02:34,527 [-] [main]  INFO Axis2SynapseController Loading mediator extensions...
+2021-08-15 19:02:34,537 [-] [main] DEBUG SynapsePropertiesLoader Reloading synapse properties
+2021-08-15 19:02:34,537 [-] [main] DEBUG SynapsePropertiesLoader Loading synapse properties from a property file
+2021-08-15 19:02:34,537 [-] [main] DEBUG MiscellaneousUtil Loading a file 'synapse.properties' from classpath
+2021-08-15 19:02:34,538 [-] [main] DEBUG DataSourceRepositoryHolder Initializing the data source repository holder
+2021-08-15 19:02:34,544 [-] [main] DEBUG DataSourceInformationRepositoryFactory Creating a new DataSourceInformationRepository
+2021-08-15 19:02:34,545 [-] [main] DEBUG DataSourceRepositoryManager Reconfiguring datasource repositories 
+2021-08-15 19:02:34,545 [-] [main] DEBUG DataSourceInformationListFactory No DataSources defined for initialization..
+2021-08-15 19:02:34,558 [-] [main] DEBUG SynapsePropertiesLoader Reloading synapse properties
+2021-08-15 19:02:34,558 [-] [main] DEBUG SynapsePropertiesLoader Loading synapse properties from a property file
+2021-08-15 19:02:34,558 [-] [main] DEBUG MiscellaneousUtil Loading a file 'synapse.properties' from classpath
+2021-08-15 19:02:34,558 [-] [main] DEBUG EnterpriseBeanstalkManager No beanstalks defined for initialization.
+2021-08-15 19:02:34,558 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,560 [-] [main]  INFO XMLConfigurationBuilder Generating the Synapse configuration model by parsing the XML configuration
+2021-08-15 19:02:34,576 [-] [main] DEBUG ConfigurationFactoryAndSerializerFinder getConfiguration({http://ws.apache.org/ns/synapse}definitions)
+2021-08-15 19:02:34,579 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,647 [-] [main] DEBUG MediatorFactoryFinder Added MediatorFactory class org.apache.synapse.experimental.DetachMediatorFactory to handle {http://ws.apache.org/ns/synapse}detach
+2021-08-15 19:02:34,647 [-] [main] DEBUG MediatorFactoryFinder Added MediatorFactory class org.apache.synapse.experimental.ReplaceMediatorFactory to handle {http://ws.apache.org/ns/synapse}replace
+2021-08-15 19:02:34,649 [-] [main] DEBUG MediatorFactoryFinder Added MediatorFactory class org.apache.synapse.mediators.spring.SpringMediatorFactory to handle {http://ws.apache.org/ns/synapse}spring
+2021-08-15 19:02:34,649 [-] [main] DEBUG MediatorFactoryFinder Added MediatorFactory class org.apache.synapse.mediators.bsf.ScriptMediatorFactory to handle {http://ws.apache.org/ns/synapse}script
+2021-08-15 19:02:34,650 [-] [main] DEBUG MediatorFactoryFinder Added MediatorFactory class org.apache.synapse.mediators.throttle.ThrottleMediatorFactory to handle {http://ws.apache.org/ns/synapse}throttle
+2021-08-15 19:02:34,653 [-] [main] DEBUG MediatorFactoryFinder Added MediatorFactory class org.apache.synapse.mediators.xquery.XQueryMediatorFactory to handle {http://ws.apache.org/ns/synapse}xquery
+2021-08-15 19:02:34,654 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}payloadFactory)
+2021-08-15 19:02:34,754 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}header)
+2021-08-15 19:02:34,755 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}send)
+2021-08-15 19:02:34,772 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}send)
+2021-08-15 19:02:34,773 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}property)
+2021-08-15 19:02:34,774 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}property)
+2021-08-15 19:02:34,775 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}header)
+2021-08-15 19:02:34,775 [-] [main] DEBUG MediatorFactoryFinder getMediator({http://ws.apache.org/ns/synapse}send)
+2021-08-15 19:02:34,775 [-] [main]  INFO SynapseConfigurationBuilder Loaded Synapse configuration from : /media/nuwan/Data2/Projects/Code/gsoc/client-server/node/synapse/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_800.xml
+2021-08-15 19:02:34,786 [-] [main] DEBUG SynapseTaskManager Created the SynapseTaskManager singleton instance
+2021-08-15 19:02:34,787 [-] [main]  INFO Axis2SynapseController Deploying the Synapse service...
+2021-08-15 19:02:34,808 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,808 [-] [main]  INFO Axis2SynapseController Deploying Proxy services...
+2021-08-15 19:02:34,808 [-] [main]  INFO Axis2SynapseController Deploying EventSources...
+2021-08-15 19:02:34,808 [-] [main] DEBUG SynapseTaskManager Creating new TaskDescriptionRepository as given instance is null.
+2021-08-15 19:02:34,809 [-] [main] DEBUG TaskDescriptionRepositoryFactory Creating a TaskDescriptionRepository with id : task_description_repository
+2021-08-15 19:02:34,809 [-] [main] DEBUG SynapseTaskManager Creating new TaskScheduler as given instance is null.
+2021-08-15 19:02:34,833 [-] [main] DEBUG SynapseConfiguration Initializing the Synapse Configuration using the SynapseEnvironment
+2021-08-15 19:02:34,834 [-] [main] DEBUG SequenceMediator Initializing child mediators of mediator : SequenceMediator
+2021-08-15 19:02:34,835 [-] [main] DEBUG SequenceMediator Initializing child mediators of mediator : SequenceMediator
+2021-08-15 19:02:34,835 [-] [main]  INFO API Initializing API: StockQuoteAPI
+2021-08-15 19:02:34,835 [-] [main] DEBUG Resource Initializing resource with ID: 84b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98
+2021-08-15 19:02:34,835 [-] [main] DEBUG SequenceMediator Initializing child mediators of mediator : SequenceMediator
+2021-08-15 19:02:34,836 [-] [main] DEBUG SequenceMediator Initializing child mediators of mediator : SequenceMediator
+2021-08-15 19:02:34,836 [-] [main] DEBUG Resource Initializing resource with ID: a4b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98
+2021-08-15 19:02:34,836 [-] [main] DEBUG SequenceMediator Initializing child mediators of mediator : SequenceMediator
+2021-08-15 19:02:34,837 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,837 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,838 [-] [main]  INFO JMSListener JMS listener started
+2021-08-15 19:02:34,839 [-] [main]  INFO PassThroughHttpListener Starting pass-through HTTP listener...
+2021-08-15 19:02:34,855 [-] [main]  INFO PassThroughHttpListener Pass-through HTTP listener started on port: 8280
+2021-08-15 19:02:34,855 [-] [main]  INFO PassThroughHttpSSLListener Starting pass-through HTTPS listener...
+2021-08-15 19:02:34,886 [-] [main]  INFO PassThroughHttpSSLListener Pass-through HTTPS listener started on port: 8243
+2021-08-15 19:02:34,887 [-] [main]  INFO Axis2SynapseController Management using JMX available via: service:jmx:rmi:///jndi/rmi://nuwan-Aspire-A315-55G:1099/synapse
+2021-08-15 19:02:34,887 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,889 [-] [main] DEBUG SynapseCallbackReceiver Initializing SynapseCallbackReceiver
+2021-08-15 19:02:34,889 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,889 [-] [main] DEBUG MiscellaneousUtil The name with 'synapse.global_timeout_interval' cannot be found. Using default value : 180000
+2021-08-15 19:02:34,889 [-] [main]  INFO TimeoutHandler This engine will expire all callbacks after : 180 seconds, irrespective of the timeout action, after the specified or optional timeout
+2021-08-15 19:02:34,889 [-] [main] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,889 [-] [main] DEBUG MiscellaneousUtil The name with 'synapse.timeout_handler_interval' cannot be found. Using default value : 15000
+2021-08-15 19:02:34,891 [-] [Timer-1] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,891 [-] [Timer-1] DEBUG MiscellaneousUtil The name with 'statistics.clean.interval' cannot be found. Using default value : 300000
+2021-08-15 19:02:34,891 [-] [Timer-1] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:34,891 [-] [main]  INFO ServerManager Server ready for processing...
+2021-08-15 19:02:34,891 [-] [Timer-1] DEBUG MiscellaneousUtil The name with 'statistics.clean.enable' cannot be found. Using default value : true
+2021-08-15 19:02:34,891 [-] [main]  INFO SynapseServer Apache Synapse started successfully
+2021-08-15 19:02:34,891 [-] [Timer-1] DEBUG StatisticsCleaner Statistics cleaning is will be occured with interval : 300 s.
+2021-08-15 19:02:34,891 [-] [Timer-1] DEBUG StatisticsCleaner There are no expired statistics to be cleaned.
+2021-08-15 19:02:49,891 [-] [Timer-1] DEBUG StatisticsCleaner There are no expired statistics to be cleaned.
+2021-08-15 19:02:56,430 [-] [PassThroughMessageProcessor-1] DEBUG MiscellaneousUtil Loading a file 'nhttp.properties' from classpath
+2021-08-15 19:02:56,474 [-] [PassThroughMessageProcessor-1] DEBUG SynapseMessageReceiver Synapse received a new message for message mediation...
+2021-08-15 19:02:56,474 [-] [PassThroughMessageProcessor-1] DEBUG SynapseMessageReceiver Received To: /stockquote/view/IBM
+2021-08-15 19:02:56,474 [-] [PassThroughMessageProcessor-1] DEBUG SynapseMessageReceiver SOAPAction: null
+2021-08-15 19:02:56,474 [-] [PassThroughMessageProcessor-1] DEBUG SynapseMessageReceiver WSA-Action: null
+2021-08-15 19:02:56,475 [-] [PassThroughMessageProcessor-1] DEBUG Axis2SynapseEnvironment Injecting MessageContext
+2021-08-15 19:02:56,475 [-] [PassThroughMessageProcessor-1] DEBUG RESTRequestHandler Located specific API: StockQuoteAPI for processing message
+2021-08-15 19:02:56,475 [-] [PassThroughMessageProcessor-1] DEBUG API Processing message with ID: urn:uuid:ac151639-857d-459e-a263-d5d4836ab15a through the API: StockQuoteAPI
+2021-08-15 19:02:56,475 [-] [PassThroughMessageProcessor-1] DEBUG Resource HTTP method does not match
+2021-08-15 19:02:56,476 [-] [PassThroughMessageProcessor-1] DEBUG Resource Processing message with ID: urn:uuid:ac151639-857d-459e-a263-d5d4836ab15a through the resource: 84b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98
+2021-08-15 19:02:56,477 [-] [PassThroughMessageProcessor-1] DEBUG SequenceMediator Start : Sequence <anonymous>
+2021-08-15 19:02:56,477 [-] [PassThroughMessageProcessor-1] DEBUG SequenceMediator Sequence <SequenceMediator> :: mediate()
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG HeaderMediator Start : Header mediator
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG HeaderMediator Setting header : Action to : urn:getQuote
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG HeaderMediator End : Header mediator
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG SendMediator Start : Send mediator
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG EndpointContext Checking if endpoint : endpoint_94b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98 currently at state ACTIVE can be used now?
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG AddressEndpoint Sending message through endpoint : endpoint_94b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98 resolving to address = http://localhost:9000/services/SimpleStockQuoteService
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG AddressEndpoint SOAPAction: urn:getQuote
+2021-08-15 19:02:56,503 [-] [PassThroughMessageProcessor-1] DEBUG AddressEndpoint WSA-Action: urn:getQuote
+2021-08-15 19:02:56,505 [-] [PassThroughMessageProcessor-1] DEBUG Axis2FlexibleMEPClient Sending [add = false] [sec = false] [mtom = false] [swa = false] [format = soap11] [force soap11=true] [force soap12=false] [pox=false] [get=false] [encoding=null] [to=http://localhost:9000/services/SimpleStockQuoteService]
+2021-08-15 19:02:56,512 [-] [PassThroughMessageProcessor-1] DEBUG Axis2FlexibleMEPClient Message [Original Request Message ID : urn:uuid:ac151639-857d-459e-a263-d5d4836ab15a] [New Cloned Request Message ID : urn:uuid:381cbebd-559f-497b-86da-40921c2b6d12]
+2021-08-15 19:02:56,513 [-] [PassThroughMessageProcessor-1] DEBUG SOAPUtils convert SOAP12 to SOAP11
+2021-08-15 19:02:56,523 [-] [PassThroughMessageProcessor-1] DEBUG SynapseCallbackReceiver Callback added. Total callbacks waiting for : 1
+2021-08-15 19:02:56,530 [-] [PassThroughHTTPSender]  WARN ConnectCallback Connection refused or failed for : localhost/127.0.0.1:9000
+2021-08-15 19:02:56,530 [-] [PassThroughMessageProcessor-1] DEBUG SendMediator End : Send mediator
+2021-08-15 19:02:56,530 [-] [PassThroughMessageProcessor-1] DEBUG SequenceMediator End : Sequence <anonymous>
+2021-08-15 19:02:56,534 [-] [PassThroughMessageProcessor-2] DEBUG SynapseCallbackReceiver Callback removed for request message id : urn:uuid:381cbebd-559f-497b-86da-40921c2b6d12. Pending callbacks count : 0
+2021-08-15 19:02:56,534 [-] [PassThroughMessageProcessor-2] DEBUG SynapsePropertiesLoader Retrieving synapse properties from the cache
+2021-08-15 19:02:56,534 [-] [PassThroughMessageProcessor-2] DEBUG MiscellaneousUtil The name with 'synapse.detailederrorlogging.enable' cannot be found. Using default value : false
+2021-08-15 19:02:56,535 [-] [PassThroughMessageProcessor-2] DEBUG ErrorLogFactory Created a Error Log : ErrorLog{errorCode='101503'}
+2021-08-15 19:02:56,535 [-] [PassThroughMessageProcessor-2] DEBUG SynapseCallbackReceiver [Failed Request Message ID : urn:uuid:381cbebd-559f-497b-86da-40921c2b6d12] [New to be Retried Request Message ID : urn:uuid:ac151639-857d-459e-a263-d5d4836ab15a]
+2021-08-15 19:02:56,535 [-] [PassThroughMessageProcessor-2]  WARN FaultHandler ERROR_CODE : 101503
+2021-08-15 19:02:56,535 [-] [PassThroughMessageProcessor-2]  WARN FaultHandler ERROR_MESSAGE : Error while connecting to the endpoint (Connection Failed)
+2021-08-15 19:02:56,535 [-] [PassThroughMessageProcessor-2]  WARN FaultHandler ERROR_DETAIL : Error while connecting to the endpoint (Connection Failed)
+2021-08-15 19:02:56,535 [-] [PassThroughMessageProcessor-2]  WARN FaultHandler ERROR_EXCEPTION : null
+2021-08-15 19:02:56,544 [-] [PassThroughMessageProcessor-2]  WARN FaultHandler FaultHandler : Endpoint [endpoint_94b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98]
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2] DEBUG AddressEndpoint Encountered a non-timeout error sending to Endpoint [endpoint_94b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98], error code : 101503
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2] DEBUG AddressEndpoint Endpoint [endpoint_94b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98] encountered a fatal error : 101503
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2]  WARN EndpointContext Endpoint : endpoint_94b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98 will be marked SUSPENDED as it failed
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2]  WARN EndpointContext Suspending endpoint : endpoint_94b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98 - current suspend duration is : 30000ms - Next retry after : Sun Aug 15 19:03:26 IST 2021
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2]  WARN FaultHandler FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2]  WARN MediatorFaultHandler Executing fault handler mediator : fault
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2] DEBUG SequenceMediator Start : Sequence <fault>
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2] DEBUG SequenceMediator Sequence <SequenceMediator> :: mediate()
+2021-08-15 19:02:56,545 [-] [PassThroughMessageProcessor-2] DEBUG LogMediator Start : Log mediator
+2021-08-15 19:02:56,546 [-] [PassThroughMessageProcessor-2]  INFO LogMediator To: /stockquote/view/IBM, WSAction: urn:getQuote, SOAPAction: urn:getQuote, MessageID: urn:uuid:ac151639-857d-459e-a263-d5d4836ab15a, Direction: request, MESSAGE = Executing default "fault" sequence, ERROR_CODE = 101503, ERROR_MESSAGE = Error while connecting to the endpoint (Connection Failed), Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Header/><soapenv:Body><m0:getQuote xmlns:m0="http://services.samples"><m0:request><m0:symbol>IBM</m0:symbol></m0:request></m0:getQuote></soapenv:Body></soapenv:Envelope>
+2021-08-15 19:02:56,546 [-] [PassThroughMessageProcessor-2] DEBUG LogMediator End : Log mediator
+2021-08-15 19:02:56,546 [-] [PassThroughMessageProcessor-2] DEBUG DropMediator Start : Drop mediator
+2021-08-15 19:02:56,546 [-] [PassThroughMessageProcessor-2] DEBUG DropMediator End : Drop mediator
+2021-08-15 19:02:56,546 [-] [PassThroughMessageProcessor-2] DEBUG SequenceMediator End : Sequence <fault>
+2021-08-15 19:03:04,891 [-] [Timer-1] DEBUG StatisticsCleaner There are no expired statistics to be cleaned.
+2021-08-15 19:03:19,892 [-] [Timer-1] DEBUG StatisticsCleaner There are no expired statistics to be cleaned.
+2021-08-15 19:03:21,273 [-] [Thread-3]  INFO SynapseServer Shutting down Apache Synapse...
+2021-08-15 19:03:21,277 [-] [Thread-3]  INFO SynapseTaskManager Shutting down the task manager
+2021-08-15 19:03:21,278 [-] [Thread-3]  INFO JMSListener JMS Listener Shutdown
+2021-08-15 19:03:21,278 [-] [Thread-3]  INFO PassThroughHttpListener Stopping pass-through HTTP listener..
+2021-08-15 19:03:21,281 [-] [HTTP-PT-Listener I/O Dispatcher-1]  WARN SourceHandler Connection closed after request is read: 0.0.0.0:8280<->127.0.0.1:44602[ACTIVE]
+2021-08-15 19:03:21,281 [-] [Thread-3]  INFO PassThroughHttpSSLListener Stopping pass-through HTTPS listener..
+2021-08-15 19:03:21,281 [-] [PassThroughHTTPListener]  INFO PassThroughHttpListener HTTP listener shutdown.
+2021-08-15 19:03:21,283 [-] [PassThroughHTTPSListener]  INFO PassThroughHttpSSLListener HTTPS listener shutdown.
+2021-08-15 19:03:21,283 [-] [Thread-3]  INFO JMSSender JMS Sender Shutdown
+2021-08-15 19:03:21,283 [-] [Thread-3]  INFO VFSTransportSender VFS Sender Shutdown
+2021-08-15 19:03:21,283 [-] [PassThroughHTTPSender]  INFO PassThroughHttpSender HTTP sender shutdown
+2021-08-15 19:03:21,284 [-] [PassThroughHTTPSSender]  INFO PassThroughHttpSSLSender HTTPS sender shutdown
+2021-08-15 19:03:21,284 [-] [Thread-3] DEBUG SynapseCallbackReceiver Destroying SynapseCallbackReceiver
+2021-08-15 19:03:21,284 [-] [Thread-3]  INFO Axis2SynapseController Undeploying the Synapse service...
+2021-08-15 19:03:21,285 [-] [Thread-3]  INFO Axis2SynapseController Undeploying Proxy services...
+2021-08-15 19:03:21,285 [-] [Thread-3]  INFO Axis2SynapseController Undeploying EventSources...
+2021-08-15 19:03:21,285 [-] [Thread-3] DEBUG SynapseConfiguration Destroying the Synapse Configuration
+2021-08-15 19:03:21,285 [-] [Thread-3] DEBUG SequenceMediator Destroying child mediators of mediator : SequenceMediator
+2021-08-15 19:03:21,285 [-] [Thread-3] DEBUG SequenceMediator Destroying child mediators of mediator : SequenceMediator
+2021-08-15 19:03:21,285 [-] [Thread-3] DEBUG DataSourceRepositoryManager Clearing datasource repositories 
+2021-08-15 19:03:21,285 [-] [Thread-3]  INFO API Destroying API: StockQuoteAPI
+2021-08-15 19:03:21,286 [-] [Thread-3] DEBUG Resource Destroying resource with ID: 84b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98
+2021-08-15 19:03:21,286 [-] [Thread-3] DEBUG SequenceMediator Destroying child mediators of mediator : SequenceMediator
+2021-08-15 19:03:21,286 [-] [Thread-3] DEBUG SequenceMediator Destroying child mediators of mediator : SequenceMediator
+2021-08-15 19:03:21,286 [-] [Thread-3] DEBUG Resource Destroying resource with ID: a4b8e603528ae8ecaf57e47535b2e3bcc999cb0210ad0f98
+2021-08-15 19:03:21,286 [-] [Thread-3] DEBUG SequenceMediator Destroying child mediators of mediator : SequenceMediator
+2021-08-15 19:03:21,287 [-] [Thread-3]  INFO JmxAdapter JMXConnectorServer stopping on service:jmx:rmi:///jndi/rmi://nuwan-Aspire-A315-55G:1099/synapse
+2021-08-15 19:03:21,289 [-] [Thread-3]  INFO RMIRegistryController Removing the RMI registry bound to port : 1099
+2021-08-15 19:03:21,291 [-] [Thread-3]  INFO SynapseServer Apache Synapse shutdown complete
+2021-08-15 19:03:21,291 [-] [Thread-3]  INFO SynapseServer Halting JVM

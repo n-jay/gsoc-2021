@@ -1,0 +1,4 @@
+localhost:9000 - - - "POST /services/SimpleStockQuoteService.SimpleStockQuoteServiceHttpSoap11Endpoint HTTP/1.1" - - "-" "Synapse-PT-HttpComponents-NIO"
+-  - Mon, 16 Aug 2021 13:51:07 GMT "- - " 200 - "-" "-"
+localhost:9000 - - - "POST /services/SimpleStockQuoteService HTTP/1.1" - - "-" "Synapse-PT-HttpComponents-NIO"
+-  - Mon, 16 Aug 2021 14:27:43 GMT "- - " 200 - "-" "-"

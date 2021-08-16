@@ -1,0 +1,22 @@
+2021-08-16 01:27:22,312 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Starting
+2021-08-16 01:27:23,116 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-16 01:27:23,117 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-16 01:27:23,178 [-] [main]  INFO HttpCoreNIOSender HTTP Sender starting
+2021-08-16 01:27:23,180 [-] [main]  INFO HttpCoreNIOSSLSender Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-16 01:27:23,230 [-] [main]  INFO HttpCoreNIOSSLSender Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-16 01:27:23,347 [-] [main]  INFO HttpCoreNIOSender HTTPS Sender starting
+2021-08-16 01:27:23,362 [-] [main]  INFO HttpCoreNIOSSLListener Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-16 01:27:23,363 [-] [main]  INFO HttpCoreNIOSSLListener Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-16 01:27:23,382 [-] [main]  INFO HttpCoreNIOListener HTTP Listener started on port : 9000
+2021-08-16 01:27:23,382 [-] [main]  INFO MailTransportListener MAILTO listener started
+2021-08-16 01:27:23,384 [-] [main]  INFO HttpCoreNIOListener HTTPS Listener started on port : 9002
+2021-08-16 01:27:23,384 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Started
+2021-08-16 01:27:26,679 [-] [Thread-4]  INFO SampleAxis2Server Shutting down SimpleAxisServer ...
+2021-08-16 01:27:26,684 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTP Listener Shutdown
+2021-08-16 01:27:26,686 [-] [Thread-3]  INFO MailTransportListener MAILTO Listener Shutdown
+2021-08-16 01:27:26,688 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTPS Listener Shutdown
+2021-08-16 01:27:26,690 [-] [Thread-3]  INFO JMSSender JMS Sender Shutdown
+2021-08-16 01:27:26,692 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTP Sender Shutdown
+2021-08-16 01:27:26,697 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTPS Sender Shutdown
+2021-08-16 01:27:26,708 [-] [Thread-4]  INFO SampleAxis2Server Shutdown complete
+2021-08-16 01:27:26,708 [-] [Thread-4]  INFO SampleAxis2Server Halting JVM

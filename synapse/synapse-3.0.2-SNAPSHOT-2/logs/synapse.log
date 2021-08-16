@@ -1,0 +1,105 @@
+2021-08-14 23:07:43,108 [-] [main]  INFO SynapseServer Starting Apache Synapse...
+2021-08-14 23:07:43,129 [-] [main]  INFO SynapseControllerFactory Using Synapse home : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT
+2021-08-14 23:07:43,129 [-] [main]  INFO SynapseControllerFactory Using Axis2 repository : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository
+2021-08-14 23:07:43,129 [-] [main]  INFO SynapseControllerFactory Using axis2.xml location : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/axis2.xml
+2021-08-14 23:07:43,130 [-] [main] FATAL SynapseControllerFactory The synapse.xml location /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_801.xml doesn't exist
+2021-08-14 23:13:22,934 [-] [main]  INFO SynapseServer Starting Apache Synapse...
+2021-08-14 23:13:22,949 [-] [main]  INFO SynapseControllerFactory Using Synapse home : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT
+2021-08-14 23:13:22,949 [-] [main]  INFO SynapseControllerFactory Using Axis2 repository : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository
+2021-08-14 23:13:22,949 [-] [main]  INFO SynapseControllerFactory Using axis2.xml location : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/axis2.xml
+2021-08-14 23:13:22,949 [-] [main]  INFO SynapseControllerFactory Using synapse.xml location : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_801.xml
+2021-08-14 23:13:22,950 [-] [main]  INFO SynapseControllerFactory Using server name : localhost
+2021-08-14 23:13:22,965 [-] [main]  INFO SynapseControllerFactory The timeout handler will run every : 15s
+2021-08-14 23:13:23,070 [-] [main]  INFO Axis2SynapseController Initializing Synapse at : Sat Aug 14 23:13:23 IST 2021
+2021-08-14 23:13:23,741 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-14 23:13:23,742 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-14 23:13:23,742 [-] [main]  INFO VFSTransportSender VFS Sender started
+2021-08-14 23:13:23,867 [-] [main]  INFO PassThroughHttpSender Pass-through HTTP sender started...
+2021-08-14 23:13:23,874 [-] [main]  INFO PassThroughHttpSSLSender Loading Identity Keystore from : lib/identity.jks
+2021-08-14 23:13:23,954 [-] [main]  INFO PassThroughHttpSSLSender Loading Trust Keystore from : lib/trust.jks
+2021-08-14 23:13:24,127 [-] [main]  INFO PassThroughHttpSSLSender Pass-through HTTPS sender started...
+2021-08-14 23:13:24,276 [-] [main]  INFO PassThroughHttpSSLListener Loading Identity Keystore from : lib/identity.jks
+2021-08-14 23:13:24,277 [-] [main]  INFO PassThroughHttpSSLListener Loading Trust Keystore from : lib/trust.jks
+2021-08-14 23:13:24,283 [-] [main]  INFO Axis2SynapseController Loading mediator extensions...
+2021-08-14 23:13:24,299 [-] [main]  INFO XMLConfigurationBuilder Generating the Synapse configuration model by parsing the XML configuration
+2021-08-14 23:14:24,027 [-] [main]  INFO SynapseConfigurationBuilder Loaded Synapse configuration from : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_801.xml
+2021-08-14 23:14:24,044 [-] [main]  INFO Axis2SynapseController Deploying the Synapse service...
+2021-08-14 23:14:24,064 [-] [main]  INFO Axis2SynapseController Deploying Proxy services...
+2021-08-14 23:14:24,064 [-] [main]  INFO Axis2SynapseController Deploying EventSources...
+2021-08-14 23:14:24,073 [-] [main]  INFO API Initializing API: StockQuoteAPI
+2021-08-14 23:14:24,076 [-] [main]  INFO PassThroughHttpListener Starting pass-through HTTP listener...
+2021-08-14 23:14:24,094 [-] [main]  INFO PassThroughHttpListener Pass-through HTTP listener started on port: 8280
+2021-08-14 23:14:24,095 [-] [main]  INFO PassThroughHttpSSLListener Starting pass-through HTTPS listener...
+2021-08-14 23:14:24,096 [-] [main]  INFO PassThroughHttpSSLListener Pass-through HTTPS listener started on port: 8243
+2021-08-14 23:14:24,096 [-] [main]  INFO Axis2SynapseController Management using JMX available via: service:jmx:rmi:///jndi/rmi://nuwan-Aspire-A315-55G:1099/synapse
+2021-08-14 23:14:24,099 [-] [main]  INFO TimeoutHandler This engine will expire all callbacks after : 180 seconds, irrespective of the timeout action, after the specified or optional timeout
+2021-08-14 23:14:24,101 [-] [main]  INFO ServerManager Server ready for processing...
+2021-08-14 23:14:24,101 [-] [main]  INFO SynapseServer Apache Synapse started successfully
+2021-08-14 23:14:32,165 [-] [Thread-3]  INFO SynapseServer Shutting down Apache Synapse...
+2021-08-14 23:14:32,169 [-] [Thread-3]  INFO SynapseTaskManager Shutting down the task manager
+2021-08-14 23:14:32,170 [-] [Thread-3]  INFO PassThroughHttpListener Stopping pass-through HTTP listener..
+2021-08-14 23:14:32,172 [-] [Thread-3]  INFO PassThroughHttpSSLListener Stopping pass-through HTTPS listener..
+2021-08-14 23:14:32,172 [-] [PassThroughHTTPListener]  INFO PassThroughHttpListener HTTP listener shutdown.
+2021-08-14 23:14:32,173 [-] [PassThroughHTTPSListener]  INFO PassThroughHttpSSLListener HTTPS listener shutdown.
+2021-08-14 23:14:32,174 [-] [Thread-3]  INFO JMSSender JMS Sender Shutdown
+2021-08-14 23:14:32,174 [-] [Thread-3]  INFO VFSTransportSender VFS Sender Shutdown
+2021-08-14 23:14:32,174 [-] [PassThroughHTTPSender]  INFO PassThroughHttpSender HTTP sender shutdown
+2021-08-14 23:14:32,174 [-] [PassThroughHTTPSSender]  INFO PassThroughHttpSSLSender HTTPS sender shutdown
+2021-08-14 23:14:32,175 [-] [Thread-3]  INFO Axis2SynapseController Undeploying the Synapse service...
+2021-08-14 23:14:32,176 [-] [Thread-3]  INFO Axis2SynapseController Undeploying Proxy services...
+2021-08-14 23:14:32,176 [-] [Thread-3]  INFO Axis2SynapseController Undeploying EventSources...
+2021-08-14 23:14:32,177 [-] [Thread-3]  INFO API Destroying API: StockQuoteAPI
+2021-08-14 23:14:32,178 [-] [Thread-3]  INFO JmxAdapter JMXConnectorServer stopping on service:jmx:rmi:///jndi/rmi://nuwan-Aspire-A315-55G:1099/synapse
+2021-08-14 23:14:32,179 [-] [Thread-3]  INFO RMIRegistryController Removing the RMI registry bound to port : 1099
+2021-08-14 23:14:32,182 [-] [Thread-3]  INFO SynapseServer Apache Synapse shutdown complete
+2021-08-14 23:14:32,182 [-] [Thread-3]  INFO SynapseServer Halting JVM
+2021-08-14 23:14:41,059 [-] [main]  INFO SynapseServer Starting Apache Synapse...
+2021-08-14 23:14:41,071 [-] [main]  INFO SynapseControllerFactory Using Synapse home : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT
+2021-08-14 23:14:41,072 [-] [main]  INFO SynapseControllerFactory Using Axis2 repository : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository
+2021-08-14 23:14:41,072 [-] [main]  INFO SynapseControllerFactory Using axis2.xml location : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/axis2.xml
+2021-08-14 23:14:41,072 [-] [main]  INFO SynapseControllerFactory Using synapse.xml location : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_801.xml
+2021-08-14 23:14:41,072 [-] [main]  INFO SynapseControllerFactory Using server name : localhost
+2021-08-14 23:14:41,084 [-] [main]  INFO SynapseControllerFactory The timeout handler will run every : 15s
+2021-08-14 23:14:41,151 [-] [main]  INFO Axis2SynapseController Initializing Synapse at : Sat Aug 14 23:14:41 IST 2021
+2021-08-14 23:14:41,755 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-14 23:14:41,757 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-14 23:14:41,757 [-] [main]  INFO VFSTransportSender VFS Sender started
+2021-08-14 23:14:41,861 [-] [main]  INFO PassThroughHttpSender Pass-through HTTP sender started...
+2021-08-14 23:14:41,863 [-] [main]  INFO PassThroughHttpSSLSender Loading Identity Keystore from : lib/identity.jks
+2021-08-14 23:14:41,906 [-] [main]  INFO PassThroughHttpSSLSender Loading Trust Keystore from : lib/trust.jks
+2021-08-14 23:14:42,039 [-] [main]  INFO PassThroughHttpSSLSender Pass-through HTTPS sender started...
+2021-08-14 23:14:42,144 [-] [main]  INFO PassThroughHttpSSLListener Loading Identity Keystore from : lib/identity.jks
+2021-08-14 23:14:42,145 [-] [main]  INFO PassThroughHttpSSLListener Loading Trust Keystore from : lib/trust.jks
+2021-08-14 23:14:42,151 [-] [main]  INFO Axis2SynapseController Loading mediator extensions...
+2021-08-14 23:14:42,164 [-] [main]  INFO XMLConfigurationBuilder Generating the Synapse configuration model by parsing the XML configuration
+2021-08-14 23:14:42,314 [-] [main]  INFO SynapseConfigurationBuilder Loaded Synapse configuration from : /media/nuwan/Data2/Projects/Code/gsoc/packs/synapse-3.0.2-SNAPSHOT/repository/conf/sample/synapse_sample_801.xml
+2021-08-14 23:14:42,325 [-] [main]  INFO Axis2SynapseController Deploying the Synapse service...
+2021-08-14 23:14:42,345 [-] [main]  INFO Axis2SynapseController Deploying Proxy services...
+2021-08-14 23:14:42,345 [-] [main]  INFO Axis2SynapseController Deploying EventSources...
+2021-08-14 23:14:42,355 [-] [main]  INFO API Initializing API: StockQuoteAPI
+2021-08-14 23:14:42,359 [-] [main]  INFO PassThroughHttpListener Starting pass-through HTTP listener...
+2021-08-14 23:14:42,373 [-] [main]  INFO PassThroughHttpListener Pass-through HTTP listener started on port: 8280
+2021-08-14 23:14:42,373 [-] [main]  INFO PassThroughHttpSSLListener Starting pass-through HTTPS listener...
+2021-08-14 23:14:42,375 [-] [main]  INFO PassThroughHttpSSLListener Pass-through HTTPS listener started on port: 8243
+2021-08-14 23:14:42,376 [-] [main]  INFO Axis2SynapseController Management using JMX available via: service:jmx:rmi:///jndi/rmi://nuwan-Aspire-A315-55G:1099/synapse
+2021-08-14 23:14:42,378 [-] [main]  INFO TimeoutHandler This engine will expire all callbacks after : 180 seconds, irrespective of the timeout action, after the specified or optional timeout
+2021-08-14 23:14:42,380 [-] [main]  INFO ServerManager Server ready for processing...
+2021-08-14 23:14:42,380 [-] [main]  INFO SynapseServer Apache Synapse started successfully
+2021-08-14 23:14:59,843 [-] [Thread-3]  INFO SynapseServer Shutting down Apache Synapse...
+2021-08-14 23:14:59,846 [-] [Thread-3]  INFO SynapseTaskManager Shutting down the task manager
+2021-08-14 23:14:59,847 [-] [Thread-3]  INFO PassThroughHttpListener Stopping pass-through HTTP listener..
+2021-08-14 23:14:59,850 [-] [Thread-3]  INFO PassThroughHttpSSLListener Stopping pass-through HTTPS listener..
+2021-08-14 23:14:59,850 [-] [PassThroughHTTPListener]  INFO PassThroughHttpListener HTTP listener shutdown.
+2021-08-14 23:14:59,852 [-] [PassThroughHTTPSListener]  INFO PassThroughHttpSSLListener HTTPS listener shutdown.
+2021-08-14 23:14:59,853 [-] [Thread-3]  INFO JMSSender JMS Sender Shutdown
+2021-08-14 23:14:59,854 [-] [Thread-3]  INFO VFSTransportSender VFS Sender Shutdown
+2021-08-14 23:14:59,856 [-] [PassThroughHTTPSender]  INFO PassThroughHttpSender HTTP sender shutdown
+2021-08-14 23:14:59,857 [-] [PassThroughHTTPSSender]  INFO PassThroughHttpSSLSender HTTPS sender shutdown
+2021-08-14 23:14:59,859 [-] [Thread-3]  INFO Axis2SynapseController Undeploying the Synapse service...
+2021-08-14 23:14:59,860 [-] [Thread-3]  INFO Axis2SynapseController Undeploying Proxy services...
+2021-08-14 23:14:59,860 [-] [Thread-3]  INFO Axis2SynapseController Undeploying EventSources...
+2021-08-14 23:14:59,862 [-] [Thread-3]  INFO API Destroying API: StockQuoteAPI
+2021-08-14 23:14:59,866 [-] [Thread-3]  INFO JmxAdapter JMXConnectorServer stopping on service:jmx:rmi:///jndi/rmi://nuwan-Aspire-A315-55G:1099/synapse
+2021-08-14 23:14:59,869 [-] [Thread-3]  INFO RMIRegistryController Removing the RMI registry bound to port : 1099
+2021-08-14 23:14:59,874 [-] [Thread-3]  INFO SynapseServer Apache Synapse shutdown complete
+2021-08-14 23:14:59,874 [-] [Thread-3]  INFO SynapseServer Halting JVM
