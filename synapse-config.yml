@@ -8,3 +8,9 @@ data:
   TEST_SOAP_SERVICE: "http://backend-service:9000/services/SimpleStockQuoteService"
   TEST_WSDL_SERVICE: "file:repository/conf/sample/resources/proxy/sample_proxy_1.wsdl"
   TEST_WSDL_SERVICE_PORT: "SimpleStockQuoteServiceHttpSoap11Endpoint"
+  synapse.xml: |
+    namespaces:
+      - default
+    labels:
+      - "app"
+      - "owner"
