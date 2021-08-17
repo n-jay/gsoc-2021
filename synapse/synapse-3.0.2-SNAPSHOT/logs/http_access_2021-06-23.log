@@ -1,6 +1,0 @@
-localhost:8280 - - - "POST /services/StockQuoteProxy HTTP/1.1" - - "-" "Axis2"
--  - Wed, 23 Jun 2021 06:08:36 GMT "- - " 202 - "-" "-"
--  - Wed, 23 Jun 2021 06:10:26 GMT "- - " 202 - "-" "-"
-localhost:9000 - - - "POST /services/SimpleStockQuoteService HTTP/1.1" - - "-" "Synapse-PT-HttpComponents-NIO"
--  - Wed, 23 Jun 2021 06:10:45 GMT "- - " 202 - "-" "-"
-localhost:9000 - - - "POST /services/SimpleStockQuoteService HTTP/1.1" - - "-" "Synapse-PT-HttpComponents-NIO"
