@@ -14,14 +14,20 @@ spec:
       labels:
         app: synapse-deployment
     spec:
+      volumes:
+      - name: synapse-config-volume
+        configmap:
+          name: synapse-config
       containers:
       - name: synapse
         image: nuwnjay/docker-synapse:v5
         ports:
           - containerPort: 8280
+        volumeMounts:
+          - name: synapse-config-volume
+            mountPath: /usr/src/synapse/repository/conf/synapse-config/synapse.xml
+            subPath: synapse.xml
         env:
-        - name: BACKEND_SERVICE
-          value: "http://backend-service:3000"
         - name: BACKEND_SERVICE2
           valueFrom:
             configMapKeyRef:
