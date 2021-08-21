@@ -133,3 +133,78 @@ java.net.BindException: Address already in use
 2021-08-16 20:48:06,868 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTPS Sender Shutdown
 2021-08-16 20:48:06,872 [-] [Thread-4]  INFO SampleAxis2Server Shutdown complete
 2021-08-16 20:48:06,872 [-] [Thread-4]  INFO SampleAxis2Server Halting JVM
+2021-08-17 19:53:34,470 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Starting
+2021-08-17 19:53:35,239 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-17 19:53:35,240 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-17 19:53:35,307 [-] [main]  INFO HttpCoreNIOSender HTTP Sender starting
+2021-08-17 19:53:35,313 [-] [main]  INFO HttpCoreNIOSSLSender Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-17 19:53:35,431 [-] [main]  INFO HttpCoreNIOSSLSender Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-17 19:53:35,599 [-] [main]  INFO HttpCoreNIOSender HTTPS Sender starting
+2021-08-17 19:53:35,691 [-] [main]  INFO HttpCoreNIOSSLListener Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-17 19:53:35,692 [-] [main]  INFO HttpCoreNIOSSLListener Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-17 19:53:35,712 [-] [main]  INFO HttpCoreNIOListener HTTP Listener started on port : 9000
+2021-08-17 19:53:35,713 [-] [main]  INFO MailTransportListener MAILTO listener started
+2021-08-17 19:53:35,714 [-] [main]  WARN MailTransportListener Unable to configure the service SimpleStockQuoteService for the MAILTO transport: Service doesn't have configuration information for transport mailto. This service is being marked as faulty and will not be available over the MAILTO transport.
+2021-08-17 19:53:35,714 [-] [main]  WARN MailTransportListener Disabling the mailto transport for the service SimpleStockQuoteService, because it is not configured properly for the service
+2021-08-17 19:53:35,717 [-] [main]  INFO HttpCoreNIOListener HTTPS Listener started on port : 9002
+2021-08-17 19:53:35,717 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Started
+2021-08-18 00:05:36,964 [-] [Thread-4]  INFO SampleAxis2Server Shutting down SimpleAxisServer ...
+2021-08-18 00:05:36,976 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTP Listener Shutdown
+2021-08-18 00:05:36,980 [-] [Thread-3]  INFO MailTransportListener MAILTO Listener Shutdown
+2021-08-18 00:05:36,982 [-] [Thread-3] ERROR MailTransportListener Unable to stop service : SimpleStockQuoteService - unable to find the corresponding protocol endpoint
+2021-08-18 00:05:36,984 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTPS Listener Shutdown
+2021-08-18 00:05:36,985 [-] [Thread-3]  INFO JMSSender JMS Sender Shutdown
+2021-08-18 00:05:36,985 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTP Sender Shutdown
+2021-08-18 00:05:36,987 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTPS Sender Shutdown
+2021-08-18 00:05:36,992 [-] [Thread-4]  INFO SampleAxis2Server Shutdown complete
+2021-08-18 00:05:36,992 [-] [Thread-4]  INFO SampleAxis2Server Halting JVM
+2021-08-21 01:15:46,323 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Starting
+2021-08-21 01:15:47,175 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-21 01:15:47,176 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-21 01:15:47,223 [-] [main]  INFO HttpCoreNIOSender HTTP Sender starting
+2021-08-21 01:15:47,225 [-] [main]  INFO HttpCoreNIOSSLSender Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-21 01:15:47,278 [-] [main]  INFO HttpCoreNIOSSLSender Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-21 01:15:47,399 [-] [main]  INFO HttpCoreNIOSender HTTPS Sender starting
+2021-08-21 01:15:47,511 [-] [main]  INFO HttpCoreNIOSSLListener Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-21 01:15:47,512 [-] [main]  INFO HttpCoreNIOSSLListener Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-21 01:15:47,529 [-] [main]  INFO HttpCoreNIOListener HTTP Listener started on port : 9000
+2021-08-21 01:15:47,529 [-] [main]  INFO MailTransportListener MAILTO listener started
+2021-08-21 01:15:47,530 [-] [main]  WARN MailTransportListener Unable to configure the service SimpleStockQuoteService for the MAILTO transport: Service doesn't have configuration information for transport mailto. This service is being marked as faulty and will not be available over the MAILTO transport.
+2021-08-21 01:15:47,530 [-] [main]  WARN MailTransportListener Disabling the mailto transport for the service SimpleStockQuoteService, because it is not configured properly for the service
+2021-08-21 01:15:47,533 [-] [main]  INFO HttpCoreNIOListener HTTPS Listener started on port : 9002
+2021-08-21 01:15:47,533 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Started
+2021-08-21 01:16:34,650 [-] [Thread-4]  INFO SampleAxis2Server Shutting down SimpleAxisServer ...
+2021-08-21 01:16:34,655 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTP Listener Shutdown
+2021-08-21 01:16:34,658 [-] [Thread-4]  INFO MailTransportListener MAILTO Listener Shutdown
+2021-08-21 01:16:34,660 [-] [Thread-4] ERROR MailTransportListener Unable to stop service : SimpleStockQuoteService - unable to find the corresponding protocol endpoint
+2021-08-21 01:16:34,662 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTPS Listener Shutdown
+2021-08-21 01:16:34,665 [-] [Thread-4]  INFO JMSSender JMS Sender Shutdown
+2021-08-21 01:16:34,667 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTP Sender Shutdown
+2021-08-21 01:16:34,670 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTPS Sender Shutdown
+2021-08-21 01:16:34,678 [-] [Thread-4]  INFO SampleAxis2Server Shutdown complete
+2021-08-21 01:16:34,678 [-] [Thread-4]  INFO SampleAxis2Server Halting JVM
+2021-08-21 11:30:02,084 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Starting
+2021-08-21 11:30:02,629 [-] [main]  INFO JMSSender JMS Sender started
+2021-08-21 11:30:02,631 [-] [main]  INFO JMSSender JMS Transport Sender initialized...
+2021-08-21 11:30:02,677 [-] [main]  INFO HttpCoreNIOSender HTTP Sender starting
+2021-08-21 11:30:02,679 [-] [main]  INFO HttpCoreNIOSSLSender Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-21 11:30:02,715 [-] [main]  INFO HttpCoreNIOSSLSender Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-21 11:30:02,821 [-] [main]  INFO HttpCoreNIOSender HTTPS Sender starting
+2021-08-21 11:30:02,917 [-] [main]  INFO HttpCoreNIOSSLListener Loading Identity Keystore from : ../../lib/identity.jks
+2021-08-21 11:30:02,918 [-] [main]  INFO HttpCoreNIOSSLListener Loading Trust Keystore from : ../../lib/trust.jks
+2021-08-21 11:30:02,936 [-] [main]  INFO HttpCoreNIOListener HTTP Listener started on port : 9000
+2021-08-21 11:30:02,936 [-] [main]  INFO MailTransportListener MAILTO listener started
+2021-08-21 11:30:02,942 [-] [main]  WARN MailTransportListener Unable to configure the service SimpleStockQuoteService for the MAILTO transport: Service doesn't have configuration information for transport mailto. This service is being marked as faulty and will not be available over the MAILTO transport.
+2021-08-21 11:30:02,943 [-] [main]  WARN MailTransportListener Disabling the mailto transport for the service SimpleStockQuoteService, because it is not configured properly for the service
+2021-08-21 11:30:02,945 [-] [main]  INFO HttpCoreNIOListener HTTPS Listener started on port : 9002
+2021-08-21 11:30:02,946 [-] [main]  INFO SampleAxis2ServerManager [SimpleAxisServer] Started
+2021-08-21 11:32:16,914 [-] [Thread-4]  INFO SampleAxis2Server Shutting down SimpleAxisServer ...
+2021-08-21 11:32:16,917 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTP Listener Shutdown
+2021-08-21 11:32:16,920 [-] [Thread-3]  INFO MailTransportListener MAILTO Listener Shutdown
+2021-08-21 11:32:16,920 [-] [Thread-3] ERROR MailTransportListener Unable to stop service : SimpleStockQuoteService - unable to find the corresponding protocol endpoint
+2021-08-21 11:32:16,921 [-] [HttpCoreNIOListener]  INFO HttpCoreNIOListener HTTPS Listener Shutdown
+2021-08-21 11:32:16,922 [-] [Thread-3]  INFO JMSSender JMS Sender Shutdown
+2021-08-21 11:32:16,922 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTP Sender Shutdown
+2021-08-21 11:32:16,923 [-] [HttpCoreNIOSender]  INFO HttpCoreNIOSender HTTPS Sender Shutdown
+2021-08-21 11:32:16,925 [-] [Thread-4]  INFO SampleAxis2Server Shutdown complete
+2021-08-21 11:32:16,926 [-] [Thread-4]  INFO SampleAxis2Server Halting JVM

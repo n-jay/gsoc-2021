@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <!--
   ~  Licensed to the Apache Software Foundation (ASF) under one
   ~  or more contributor license agreements.  See the NOTICE file
@@ -16,18 +17,27 @@
   ~  specific language governing permissions and limitations
   ~  under the License.
   -->
+        
+<!-- An empty flat synapse configuration shipped with the Apache Synapse -->
+<definitions xmlns="http://ws.apache.org/ns/synapse">
 
-<serviceGroup>
-    <service name="SimpleStockQuoteService" scope="application">
-        <schema> 
-            <mapping package="samples.services" namespace="http://services.samples"/> 
-        </schema> 
-        <messageReceivers>
-            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" 
-                             class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />
-            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out"
-                             class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
-        </messageReceivers>
-        <parameter locked="false" name="ServiceClass">samples.services.SimpleStockQuoteService</parameter>
-    </service>
-</serviceGroup>
+    <!-- You can add any flat sequences, endpoints, etc.. to this synapse.xml file if you do
+    not want to keep the artifacts in several files -->
+    
+    <sequence name="main">
+        <in>
+            <send>
+                <!-- get epr from the given wsdl -->
+                <endpoint>
+                    <wsdl uri="$SYSTEM:TEST_WSDL_SERVICE"
+                          service="SimpleStockQuoteService"
+                          port="$SYSTEM:TEST_WSDL_SERVICE_PORT"/>
+                </endpoint>
+            </send>
+        </in>
+
+        <out>
+            <send/>
+        </out>
+    </sequence>
+</definitions>

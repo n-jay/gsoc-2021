@@ -21,6 +21,9 @@
 <!-- An empty flat synapse configuration shipped with the Apache Synapse -->
 <definitions xmlns="http://ws.apache.org/ns/synapse">
 
+    <!-- You can add any flat sequences, endpoints, etc.. to this synapse.xml file if you do
+    not want to keep the artifacts in several files -->
+    
     <api name="StockQuoteAPI" context="/stockquote">
         <resource uri-template="/view/{symbol}" methods="GET">
             <inSequence>
@@ -54,11 +57,10 @@
                 <header name="Action" value="urn:placeOrder"/>
                 <send>
                     <endpoint>
-                        <address uri="$SYSTEM:TEST_SOAP_SERVICE" format="soap11"/>
+                        <address uri="http://localhost:9000/services/SimpleStockQuoteService" format="soap11"/>
                     </endpoint>
                 </send>
             </inSequence>
         </resource>
     </api>
-
 </definitions>
