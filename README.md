@@ -3,6 +3,7 @@
 ## Description
 
 This repository contains additional project files used for the final demonstration and containerization purposes.
+The contents of this repo were developed in conjunction with code commits to the Apacche Synapse repo which can be found [here](https://github.com/n-jay/synapse/commits/feature1)
 
 ## Architecture
 
