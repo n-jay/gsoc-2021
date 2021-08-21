@@ -5,7 +5,7 @@ metadata:
   labels:
     app: synapse-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: synapse-deployment
@@ -14,19 +14,23 @@ spec:
       labels:
         app: synapse-deployment
     spec:
+
       volumes:
-      - name: synapse-config-volume
-        configmap:
-          name: synapse-config
+      - name: synapse-volume
+        persistentVolumeClaim:
+          claimName: synapse-persistent-volume-claim
+
       containers:
       - name: synapse
-        image: nuwnjay/docker-synapse:v5
+        image: nuwnjay/docker-synapse:v8
         ports:
           - containerPort: 8280
+
         volumeMounts:
-          - name: synapse-config-volume
-            mountPath: /usr/src/synapse/repository/conf/synapse-config/synapse.xml
-            subPath: synapse.xml
+          - name: synapse-volume
+            mountPath: "/usr/src/synapse/repository/conf/synapse-config/"
+            # subPath: synapse.xml
+
         env:
         - name: BACKEND_SERVICE2
           valueFrom:
