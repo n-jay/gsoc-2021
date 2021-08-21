@@ -3,4 +3,4 @@ FROM openjdk:8
 COPY /synapse /usr/src/synapse
 WORKDIR /usr/src/synapse
 EXPOSE 8280 
-# CMD [ "sh", "bin/synapse.sh"]
+CMD [ "sh", "bin/synapse.sh"]
