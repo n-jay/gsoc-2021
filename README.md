@@ -1,11 +1,43 @@
-# GSoC 2021
+# GSoC 2021 - Containerisation of Apache Synapse ESB
 
-Project dedicated to containerizing the Apache Synapse ESB.
+## Description
+
+This repository contains additional project files used for the final demonstration and containerization purposes.
+
+## Architecture
+
+![image info](./images/architecture.png)
 
 ## Project structure
 
-**Client** - Project Directory for simple HTTP client (Written in Python)
+### Directories
 
-**Server** - Project Directory for simple HTTP server (Written in Node JS)
+**client** - Project Directory for client. axis2Client bundled with synapse used for this purpose.
 
-**Synapse** - Project Directory for Synase ESB dockerization
+**axis2Server** - Project Directory for backend. axis2Server bundled with synapse used for this purpose
+
+**synapse** - Project Directory for Synase ESB dockerization
+
+### Files
+
+**backend-deployment.yml** - Used for deploying axis2Server 
+
+**backend-service.yml** - Used for deploying service that interface with axis2Server via port 9000
+
+**client-deployment.yml** - Used for deploying container instance to act as headful client
+
+**synapse-deployment.yml** - Used for deploying modified Synapse ESB
+
+**synapse-service.yml** - Used for deploying service that interface with Synapse ESB via port 8280
+
+**synapse-config.yml** - Used for injecting environment variables to Synapse pods at deployment time
+
+**synapse-persistent-volume.yml** - Used for allocating persistent volume space in node
+
+**synapse-persistent-volume-claim.yml** - Used for claiming space in allocated persistent volume for synapse-deployment
+
+### Files (Deprecated)
+
+synapse-pod.yml
+
+backend-pod.yml
