@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: client
-        image: nuwnjay/docker-synapse-client:v1
+        image: nuwnjay/docker-axis-server:v1
         imagePullPolicy: IfNotPresent
